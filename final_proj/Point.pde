@@ -6,17 +6,11 @@ class Point {
     pos = new PVector(x, y, z);
     clr = c;
   }
-
   void display(){
-    pushStyle();
-    pushMatrix();
-    
+    //pushStyle();
     stroke(clr);
     strokeWeight(5);
-    translate(pos.x, pos.y, pos.z);
-    point(0,0);
-    
-    popMatrix();
-    popStyle();
+    point(pos.x,pos.y, pos.z);
+    //popStyle();
   }
 }

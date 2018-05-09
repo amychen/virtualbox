@@ -1,5 +1,3 @@
-
-
 void grassDisplay(){
   for (Grass g : grasses){
     g.grow();

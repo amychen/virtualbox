@@ -38,6 +38,8 @@ class Ball {
       pos.z = lerp(pos.z, -500, 0.1);
       vel.z *= -1;
       count++;
+  
+  
     }
   }
   
